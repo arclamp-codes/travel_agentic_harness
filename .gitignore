@@ -1,0 +1,32 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# --- Secrets ---
+.env
+.venv
+.env.*
+!.env.example
+service-account*.json #-- in case you use service account in Vertex AI)
+*-key.json
+
+# --- OS / editor cruft (you sync Mac <-> Arch) ---
+.DS_Store
+*.swp
+*.swo
+
+# --- runtime output ---
+*.log
+*.wav
+
+.ruff_cache/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
